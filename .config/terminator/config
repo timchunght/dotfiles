@@ -1,0 +1,37 @@
+[global_config]
+[keybindings]
+  go_right = <Alt>bracketright
+  go_left = <Alt>bracketright
+  zoom_in = <Alt>equal
+  prev_tab = <Alt>Left
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_1 = <Alt>1
+  split_vert = <Alt>d
+  zoom_out = <Alt>minus
+  go_prev = <Alt>bracketleft
+  close_term = <Alt>w
+  new_tab = <Alt>t
+  copy = <Alt>c
+  paste = <Alt>v
+  search = <Alt>f
+  go_up = <Alt>bracketleft
+  next_tab = <Alt>Right
+  split_horiz = <Shift><Alt>d
+  go_down = <Alt>bracketleft
+  go_next = <Alt>bracketright
+[profiles]
+  [[default]]
+  [[New Profile]]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
